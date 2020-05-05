@@ -33,44 +33,6 @@ let game = {
         	 game.platform.dx = event.gamma / 6;
 	       // game.platform.dx += 30;
         });
-
-
-		//if (window.DeviceMotionEvent != undefined){
-		//	window.onedevicemotion = function(e){
-		//		game.platform.ax = event.accelerationIncludingGravity.x * 5;
-		//		game.platform.dx += ax * game.platform.velocity;
-		//	}
-			//setInterval( function() {
-                 //let landscapeOrientation = window.innerWidth/window.innerHeight > 1;
-                       //if ( landscapeOrientation) {
-                       //  dx = dx + ax;
-                       //} else {
-                        // dx = dx - ax;
-                       //}
-                        //dx = dx * 0.98;
-
-                        //x = parseInt(x + dx / 50);
-              //  },25);
-		  //  };
-
-		
-
-		//window.addEventListener("keydown", function(e){
-		//	if(e.keyCode == 37){
-		//		game.platform.dx = -game.platform.velocity;
-		//	} else if(e.keyCode == 39){
-		//		game.platform.dx = game.platform.velocity;
-		//	}
-		//	else if(e.keyCode == 32){
-		
-		//		game.platform.releaseBall();
-		//	}
-		
-        // }
-         //);
-		//window.addEventListener("keyup", function(e){
-		//	game.platform.stop();
-         //});
 	},
 
 	load: function(){
